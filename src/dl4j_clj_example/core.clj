@@ -21,6 +21,8 @@
            [java.nio.file Paths]
            [java.util Arrays]
            [java.util Random]))
+        
+;; xxx maybe we need encog->cnclog like api design?
          
 (defn setup []
   (set! Nd4j/MAX_SLICES_TO_PRINT -1)
